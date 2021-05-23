@@ -20,15 +20,15 @@ var hour16 = moment().hour(16);
 var hours = [hour7, hour8, hour9, hour10, hour11, hour12, hour13, hour14, hour15];
 
 // storage data
-var event7 = JSON.parse(localStorage.getItem('hour7'));
-var event8 = JSON.parse(localStorage.getItem('hour8'));
-var event9 = JSON.parse(localStorage.getItem('hour9'));
-var event10 = JSON.parse(localStorage.getItem('hour10'));
-var event11 = JSON.parse(localStorage.getItem('hour11'));
-var event12 = JSON.parse(localStorage.getItem('hour12'));
-var event13 = JSON.parse(localStorage.getItem('hour13'));
-var event14 = JSON.parse(localStorage.getItem('hour14'));
-var event15 = JSON.parse(localStorage.getItem('hour15'));
+var event7 = JSON.parse(localStorage.getItem('hour7')) || "";
+var event8 = JSON.parse(localStorage.getItem('hour8')) || "";
+var event9 = JSON.parse(localStorage.getItem('hour9')) || "";
+var event10 = JSON.parse(localStorage.getItem('hour10')) || "";
+var event11 = JSON.parse(localStorage.getItem('hour11')) || "";
+var event12 = JSON.parse(localStorage.getItem('hour12')) || "";
+var event13 = JSON.parse(localStorage.getItem('hour13')) || "";
+var event14 = JSON.parse(localStorage.getItem('hour14')) || "";
+var event15 = JSON.parse(localStorage.getItem('hour15')) || "";
 
 // inserting events to local storage
 $.each(hours, function (index, value) {
