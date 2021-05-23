@@ -1,5 +1,5 @@
 # Work Day Scheduler Starter Code
-## GIt Hub Repositoy Link :
+## GIt Hub Repositoy Link : https://github.com/sudbatra/Work-day-scheduler
 ## Deployment Link:
 1. User is presented with the screen and they can add their taks for the day
 
